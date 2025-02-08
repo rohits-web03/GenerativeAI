@@ -89,7 +89,6 @@ if st.button("Generate Summary"):
         else:
             st.error("Invalid YouTube URL")
     else:
-        st.warning("Please enter a YouTube URL")
+        st.warning("Please enter a valid YouTube URL")
 
 st.markdown("---")
-st.caption("Note: Make sure Ollama is running locally with the Llama3 model installed.")
